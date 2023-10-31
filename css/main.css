@@ -8,7 +8,7 @@ html, body { max-width: 100%; overflow-x: hidden; }
  }
  
  @media (max-width: 767px) {
-   /* ширина меньше 768px - мобильная версия */
+ 
    .sidebar-btn-wrap {
      display: block;
    }
@@ -21,18 +21,18 @@ html,h1,h2,h3,h4,h5,h6,a{
       position: absolute;
       bottom: 20px;
       right: 20px;
-      display: none; /* изначально кнопка скрыта */
+      display: none; 
     }
 
    #sidebar {
       position: fixed;
       top: 0;
-      right: -200px; /* начальное положение Sidebar за пределами экрана */
+      right: -200px; 
       width: 200px;
       height: 100%;
       border-radius: 5% 0 0 5%;
       background-color: mediumslateblue;
-      transition: all 0.3s ease-out; /* добавляем плавное появление/скрытие */
+      transition: all 0.3s ease-out;
     }
     
     #toggleSidebar {
