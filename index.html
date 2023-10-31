@@ -44,7 +44,7 @@
       </ul>
     </div>
     <div id="sidebar">
-      <!-- сюда добавьте ссылки для навигации в Sidebar -->
+  
 
       <ul class="navbar-nav mr-4">
         <li class="nav-item">
@@ -280,16 +280,16 @@ var hideButton = document.getElementById('hideSidebar');
 toggleButton.addEventListener('click', function() {
   if (sidebar.style.right === '-200px') {
     sidebar.style.right = '0';
-    hideButton.style.display = 'block'; /* показываем кнопку "Скрыть Sidebar" */
+    hideButton.style.display = 'block';
   } else {
     sidebar.style.right = '-200px';
-    hideButton.style.display = 'none'; /* скрываем кнопку "Скрыть Sidebar" */
+    hideButton.style.display = 'none';
   }
 });
 
 hideButton.addEventListener('click', function() {
   sidebar.style.right = '-200px';
-  hideButton.style.display = 'none'; /* скрываем кнопку "Скрыть Sidebar" */
+  hideButton.style.display = 'none'; 
 });</script>
 
     
